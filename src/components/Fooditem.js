@@ -84,7 +84,7 @@ const Fooditem = (props) => {
                     <hr className='my-3' />
                     <div className='d-flex justify-content-between align-middle'>
                         <div className='btn btn-outline-warning btn-sm my-auto'><i className="bi bi-currency-rupee"></i>{finalPrice}/-</div>
-                        <button className='btn btn-warning btn-sm my-auto' onClick={handleAddToCart}>Add to Cart</button>
+                        <button className='btn btn-warning btn-sm my-auto' onClick={handleAddToCart}>Add to Bag</button>
                     </div>
                 </div>
             </div>
